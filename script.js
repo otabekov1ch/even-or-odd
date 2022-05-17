@@ -1,8 +1,11 @@
 const oddOrEven = num => num % 2 === 0 ? 'even' : 'odd';
-const num = prompt('Kiriting');
-if (num%2 == 0){
+let num = prompt('Kiriting');
+num = Number(num);
+if (num % 2 == 0) {
     alert('juft')
-}else {
+} else if(num % 2 !== 0 ) {
     alert('toq')
-};
+}else{
+    alert("Xato")
+}
 
